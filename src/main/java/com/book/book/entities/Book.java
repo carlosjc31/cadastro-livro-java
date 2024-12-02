@@ -15,8 +15,8 @@ public class Book {
     private String title;
     private String author;
     private String description;
+    private int year;
 
-    //Getters and Setters Book
     public Long getId() {
         return id;
     }
@@ -40,12 +40,6 @@ public class Book {
     }
     public void setDescription(String description) {
         this.description = description;
-    }
-    public String getIsbn() {
-        return isbn;
-    }
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
     }
     public int getYear() {
         return year;
@@ -76,8 +70,8 @@ public class Book {
     public void setYear(int year) {
         this.year = year;
     }
-    private String isbn;
-    private int year;
 
-        
+    
+    
+    
 }
